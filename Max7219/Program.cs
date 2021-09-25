@@ -18,18 +18,18 @@ namespace Max7219Example
             using (var devices = new Max7219(spi, cascadedDevices: 4))
             {
                 devices.Init();
-                devices.Brightness(15);
+                devices.Brightness(0);
 
                 ShowMessage(devices);
-                //Smiley(devices);
-                //FadeOut(devices);
+                Smiley(devices);
+                FadeIn(devices);
                 devices.ClearAll();
             }
         }
 
-        private static void FadeOut(Max7219 devices)
+        private static void FadeIn(Max7219 devices)
         {
-            for(int i = 15; i >= 0; i--)
+            for(int i = 0; i <16; i++)
             {
                 Console.WriteLine($"{i}");
                 devices.Brightness(i);
@@ -57,6 +57,8 @@ namespace Max7219Example
                     devices[i, digit] = smiley[digit];
                 }
             }
+
+            devices.Flush();
         }
 
         private static void ShowMessage(Max7219 devices)
@@ -66,12 +68,6 @@ namespace Max7219Example
 
             writer.Font = Fonts.CP437;
             writer.ShowMessage($"Hello World!! the date is {DateTime.Now}!", alwaysScroll: true);
-
-            //foreach (var font in new[] { Fonts.CP437, Fonts.LCD, Fonts.Sinclair, Fonts.Tiny, Fonts.CyrillicUkrainian })
-            //{
-            //    writer.Font = font;
-            //    writer.ShowMessage($"Hello World!! the date is {DateTime.Now}!       ", alwaysScroll: true);
-            //}
         }
     }
 }

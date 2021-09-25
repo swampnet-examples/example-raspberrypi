@@ -1,4 +1,7 @@
-﻿
+﻿Breadboard:
+
+![Breadboard diagram](docs/wiring.png)
+
 
 Example
 
