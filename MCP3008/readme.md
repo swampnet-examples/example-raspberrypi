@@ -1,7 +1,7 @@
 ﻿
 Breadboard:
 
-![Breadboard diagram](docs/HelloMCP3008.png)
+![Breadboard diagram](docs/MCP3008.png)
 
 Example
 
