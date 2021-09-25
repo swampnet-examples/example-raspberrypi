@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31717.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCP3008", "MCP3008\MCP3008.csproj", "{A53F09A7-F117-4929-AC53-2811EB7CBB43}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SensorHub", "SensorHub\SensorHub.csproj", "{F778DC95-B347-458B-819D-1715744AD4DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A53F09A7-F117-4929-AC53-2811EB7CBB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A53F09A7-F117-4929-AC53-2811EB7CBB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A53F09A7-F117-4929-AC53-2811EB7CBB43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F778DC95-B347-458B-819D-1715744AD4DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F778DC95-B347-458B-819D-1715744AD4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F778DC95-B347-458B-819D-1715744AD4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F778DC95-B347-458B-819D-1715744AD4DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
