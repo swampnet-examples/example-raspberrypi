@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31717.71
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MCP3008", "MCP3008\MCP3008.csproj", "{A53F09A7-F117-4929-AC53-2811EB7CBB43}"
 EndProject
@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SensorHub", "SensorHub\Sens
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blinky", "Blinky\Blinky.csproj", "{27333B5F-50C6-40AF-B17F-88A29D4A49DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Max7219", "Max7219\Max7219.csproj", "{8EF66F4D-0241-4706-9E03-CE34B7EC30CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Max7219", "Max7219\Max7219.csproj", "{8EF66F4D-0241-4706-9E03-CE34B7EC30CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relays", "Relays\Relays.csproj", "{69572216-1487-4F8E-A16D-1CF3A032FDD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8EF66F4D-0241-4706-9E03-CE34B7EC30CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EF66F4D-0241-4706-9E03-CE34B7EC30CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EF66F4D-0241-4706-9E03-CE34B7EC30CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69572216-1487-4F8E-A16D-1CF3A032FDD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69572216-1487-4F8E-A16D-1CF3A032FDD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69572216-1487-4F8E-A16D-1CF3A032FDD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69572216-1487-4F8E-A16D-1CF3A032FDD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
