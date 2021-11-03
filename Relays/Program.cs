@@ -35,13 +35,15 @@ namespace Relays
 
         private static void Toggle(GpioController controller, int r)
         {
+            var t = 1000;
+
             Console.WriteLine($"{r} Low (ON)");
             controller.Write(r, PinValue.Low);
-            Thread.Sleep(2000);
+            Thread.Sleep(t);
 
             Console.WriteLine($"{r} High (OFF)");
             controller.Write(r, PinValue.High);
-            Thread.Sleep(2000);
+            Thread.Sleep(t*2);
         }
     }
 }
